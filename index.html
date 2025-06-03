@@ -1,0 +1,176 @@
+<!-- Nombre: Juan Naranjo -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="iso-8859-1">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <title>SPA</title>
+    <link rel="stylesheet" href="styleSpa.css?v=<?php echo time(); ?>">
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Contenedor de la primera seccion -->
+    <div class="primera-seccion">
+        <div class ="cabecera">
+            <div class="menu-principal">
+                <a>PROMOCIONES</a>
+                <a>FOTOS</a>
+                <a>SERVICIOS</a>
+                <a>Mapa</a>
+                <a>CONTACTO</a>
+            </div>
+
+            <div class="seccion-derecha">
+                <div class="cuenta">
+                    <img src="imagenes/user.png" alt="usuario">
+                    <span class="miniatura">Mi cuenta</span>
+                </div>
+
+                <div class="idioma">
+                    <span class="miniatura">ES</span> 
+                    <img src="imagenes/flag.png" alt="bandera">
+                    <img src="imagenes/arrow.png" alt="flecha">
+                </div>
+            </div>
+        </div>
+
+        <div class = "cuerpo-seccion">
+            <div class="cuerpo-seccion-izquierda">
+                <p class="nombre-spa">SPA - Jodos</p>
+                <div class="texto-spa">
+                    <p class="titulo2">Regálate un momento de paz y consiente a tu piel en el mejor lugar</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Contenedor de la segunda seccion -->
+    <div class="segunda-seccion">
+        <div class="reservas menu">
+            <form class="formulario" action="" method="post">    
+                <label for="reservar">Reserva tu cita:</label>
+                <input class="cajon-entrada1" type="text" id="reservar">
+
+                <label for="codigo">Código promocional:</label>
+                <input class="cajon-entrada2" type="text" placeholder="CODIGO" id="codigo">
+            </form>
+        </div>  
+
+        <div class="opciones-servicios">
+            <div class="card">
+                <!-- nombre del servicio -->                
+                <div class="nombre-servicio titulo2"> Masaje de pies</div>
+                <!-- imagen del producto -->
+                <div class="imagen-servicio">
+                    <img src="imagenes/pies.png" alt="masaje de pies">
+                </div>
+                <!-- detalles del producto -->
+                <div class="detalles-servicio">
+                    <div class="descripcion-servicio normal">
+                        <p>Esta es una desciocion de la opción en cuestión ....</p>
+                    </div>
+
+                    <div class="cierre-servicio">
+                        <div class="precio-servicio titulo2">$20</div>
+                        <div class="boton-reservar">
+                            <button class="normal">Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <!-- nombre del servicio -->                
+                <div class="nombre-servicio titulo2"> Masaje relajante</div>
+                <!-- imagen del producto -->
+                <div class="imagen-servicio">
+                    <img src="imagenes/relajante.png" alt="masaje de pies">
+                </div>
+                <!-- detalles del producto -->
+                <div class="detalles-servicio">
+                    <div class="descripcion-servicio normal">
+                        <p>Esta es una desciocion de la opción en cuestión ....</p>
+                    </div>
+
+                    <div class="cierre-servicio">
+                        <div class="precio-servicio titulo2">$60</div>
+                        <div class="boton-reservar">
+                            <button class="normal">Reservar</button>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <div class="card">
+                <!-- nombre del servicio -->                
+                <div class="nombre-servicio titulo2"> Masaje con bambú</div>
+                <!-- imagen del producto -->
+                <div class="imagen-servicio">
+                    <img src="imagenes/bambu.png" alt="masaje de pies">
+                </div>
+                <!-- detalles del producto -->
+                <div class="detalles-servicio">
+                    <div class="descripcion-servicio normal">
+                        <p>Esta es una desciocion de la opción en cuestión ....</p>
+                    </div>
+
+                    <div class="cierre-servicio">
+                        <div class="precio-servicio titulo2">$58</div>
+                        <div class="boton-reservar">
+                            <button class="normal">Reservar</button>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenedor de la tercera seccion -->
+    <div class="tercera-seccion">
+        <div class="contenido-tercera-seccion">
+            <div class="titulo-beneficios titulo2">
+            Haste socio y prueba nuestros beneficios
+            </div>
+
+            <div class="niveles-beneficios">
+                <div class="card">
+                    <!-- nombre del servicio -->                
+                    <div class="nombre-servicio titulo2"> Masaje de pies</div>
+                    <!-- imagen del producto -->
+                    <div class="imagen-servicio">
+                        <img src="imagenes/pies.png" alt="masaje de pies">
+                    </div>
+                    <!-- detalles del producto -->
+                    <div class="detalles-servicio">
+                        <div class="descripcion-servicio normal">
+                            <p>Esta es una desciocion de la opción en cuestión ....</p>
+                        </div>
+
+                        <div class="cierre-servicio">
+                            <div class="precio-servicio titulo2">$20</div>
+                            <div class="boton-reservar">
+                                <button class="normal">Reservar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pie-pagina">
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
