@@ -302,9 +302,10 @@ input::placeholder {
     width: 100%;
     height: 770px;
 }
+
 .titulo-beneficios{
     width: 100%;
-    height: 10%;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,7 +314,132 @@ input::placeholder {
     border: none;
 }
 
+.niveles-beneficios{
+    width: 100%;
+    height: 85%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+    gap: 134px;
 
+    padding: 3em 0 0 0;
+    margin: 0;
+}
+
+.nivel-beneficio{
+    width: 20%;
+    height: 80%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-beneficio {
+    width: 255px;
+    height: 255px;
+    margin: 0%;
+    padding: 0%;
+    border: 22px solid #384001;
+    border-radius: 50%;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-beneficio img {
+    width: 55%;
+    height: 55%;
+    object-fit: cover; /* Ajusta la imagen al contenedor */
+}
+
+.nombre-beneficio {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0.1em;
+    border: none;
+    box-sizing: border-box;
+
+
+}
+
+.detalles-beneficio {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.boton-condiciones {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    align-items: center;
+}
+
+.boton-condiciones button{
+    width: 100%;
+    height: 65%;
+    border-radius: 35px;
+    background-color: #A3A656;
+    color: white;
+    cursor: pointer;  
+    border: none;
+}
+
+.boton-condiciones button:hover {
+    background-color: #384001; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.beneficios{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    border: none;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.lista-beneficios li{
+    box-sizing: border-box;
+    padding: 0.2em;
+    margin: 0%;
+    border:none;
+}
+
+
+
+
+
+
+
+
+.pie-pagina{
+    width: 100%;
+    height: 97px;
+    background-color: #384001;
+}
 
 
 
