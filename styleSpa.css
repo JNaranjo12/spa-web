@@ -428,21 +428,37 @@ input::placeholder {
     border:none;
 }
 
-
-
-
-
-
-
-
 .pie-pagina{
     width: 100%;
     height: 97px;
     background-color: #384001;
+    padding: 0px 0px 0px 70px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.secundario{    
+    color: #A3A656;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
 
-
+.redes-sociales{
+    color: #A3A656;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    box-sizing: border-box;
+}
 
 
 /* ESTILOS GENERALES DE TEXTO */
